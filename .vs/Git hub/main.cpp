@@ -68,5 +68,7 @@ int main() {
 	words[0] = 'w';
 	cout << "\n" << "New: " << words;
 
+
+	int a = 100;
 	return 0;
 }
