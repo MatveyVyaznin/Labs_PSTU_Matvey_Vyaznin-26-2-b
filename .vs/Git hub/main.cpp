@@ -69,5 +69,6 @@ int main() {
 	cout << "\n" << "New: " << words;
 	cout << "New branch";
 	cout << "New branch";
+	int a = 10;
 	return 0;
 }
