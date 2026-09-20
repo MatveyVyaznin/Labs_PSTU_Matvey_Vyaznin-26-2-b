@@ -70,6 +70,6 @@ int main() {
 	cout << "New branch";
 	cout << "New branch";
 	int a = 10;
-	__cpp_lib_constexpr_utility << "delete branch";
+	cout << "delete branch";
 	return 0;
 }
