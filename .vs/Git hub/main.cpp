@@ -67,8 +67,8 @@ int main() {
 	string words = "Hello how are you? Привет";
 	words[0] = 'w';
 	cout << "\n" << "New: " << words;
-
-
-int a = 100;
+	cout << "New branch";
+	cout << "New branch";
+	int a = 10;
 	return 0;
 }
