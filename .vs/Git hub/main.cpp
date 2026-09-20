@@ -69,6 +69,6 @@ int main() {
 	cout << "\n" << "New: " << words;
 
 
-	int a = 100;
+int a = 100;
 	return 0;
 }
