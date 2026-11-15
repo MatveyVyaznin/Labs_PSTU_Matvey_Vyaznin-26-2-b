@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include <windows.h>
-
+#include <locale.h>
 // Функция проверяет, является ли символ c гласной буквой (1 - да, 0 - нет)
 int isVowel(char c) {
     char vowels[] = "aeiouyAEIOUYаеёиоуыэюяАЕЁИОУЫЭЮЯ";
@@ -14,8 +14,7 @@ int isVowel(char c) {
 }
 
 int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+	setlocale(LC_ALL, "Russian");
 
     char s[256];
     std::cout << "Введите строку (в конце поставьте точку):" << std::endl;
